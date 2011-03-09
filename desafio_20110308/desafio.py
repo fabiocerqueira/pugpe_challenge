@@ -39,6 +39,7 @@ O objetivo deste problema eh transpor uma matriz.
 
 import unittest
 
+transpose = lambda mat: map(list, zip(*mat))
 
 class Desafio4(unittest.TestCase):
 
