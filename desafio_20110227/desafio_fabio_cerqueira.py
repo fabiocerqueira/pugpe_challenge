@@ -33,6 +33,8 @@ O objetivo deste problema eh converter uma lista de elementos em uma lista de tu
 
 import unittest
 
+def tuplify(l):
+    return zip(l[::2],l[1::2]) if len(l) >= 2 else None
 
 class Desafio2(unittest.TestCase):
 
