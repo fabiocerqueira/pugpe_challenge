@@ -35,7 +35,7 @@ O objetivo deste problema eh transpor uma matriz.
 
 """
 
-
+transpose = lambda mat: map(list, zip(*mat))
 
 import unittest
 
